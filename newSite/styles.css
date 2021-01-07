@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+/* containers */
+.container-fluid{
+    padding: 0%;
+    
+}
+/* backgrounds */
+#particles-js{
+    /* to make it the height of the viewport */
+    height: 100vh;
+    padding-top: 0;
+    background-color:  #0b0b0d ;
+}
+.coloured{
+    background-color: #fddb3a;
+}
+.non-coloured{
+    background-color: #0b0b0d;
+}
+/* Headings */
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: #0b0b0d;
+    
+}
+.top-heading, .sub-heading{  
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    margin: auto;
+    color: #f6f4e6;
+}
+.sub-heading{
+    margin-top: 1rem;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: 10;
+    color: #f6f4e6;
+    position:absolute;
+}
+.top-heading::before{
+    content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background:#fddb3a;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.top-heading::after{
+    content: "";
+  display: block;
+  width: 20%;
+  height: 2px;
+  background: #fddb3a;
+  right: 0;
+  top: 50%;
+  position: absolute;
+  /* for keeping block elements centered */
+  margin: 0 auto;
+}
+.bottom-heading{   
+    font-weight: bold;
+    margin-bottom: 2rem;   
+}
+.resume-heading{
+    color: #f6f4e6;
+    margin-bottom: 5rem;   
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 0;
+}
+.navbar-nav{
+    margin: auto;
+    font-size: large;
+    font-weight: 400;
+}
+.nav-item{
+    padding: 0 18px; 
+    color: #f6f4e6;
+    font-weight: 600;
+}
+.nav-link{
+    color: #fddb3a !important;
+}
+.nav-link:hover{
+    color: #f6f4e6 !important;
+}
+/* Description */
+.description{
+    width: 50%;
+    color: #0b0b0d;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight:bold;
+    margin: auto;
+    letter-spacing: 0.05rem;   
+}
+/* Sections */
+#about, #contact, #bottom{
+    padding: 100px;
+}
+/* Skills */
+.skill-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+.skill-image{
+    width: 40%;
+}
+/* Resume */
+.resume{
+    padding: 5% 0;
+    text-align: center;
+}
+/* Contact */
+#contact{
+    padding: 5% 0;
+}
+/* Adjustment according to viewport */
+@media (max-width:1100px){
+    .top-heading::before, .top-heading::after{
+        height: 0;
+        width: 0;
+    }
+    .sub-heading{
+        margin-top: 3rem;    
+    }
+    .description{
+        width: 100%;
+    }
+    .bottom-heading, .resume-heading{
+        font-size: 2rem;
+    }
+    
+}
+/* Footer */
+#footer{
+    padding: 2%;
+    color: #fddb3a;
+}
+.social{
+    width: 10%;
+    margin:20px 20px;
+}
+.socials{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.social-link{
+    color: #f6f4e6;
+}
+.social-link:hover{
+    color:#fddb3a;
+}
