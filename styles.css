@@ -146,6 +146,7 @@ body{
     }
     .description{
         width: 100%;
+        font-size: 1rem;
     }
     .bottom-heading, .resume-heading{
         font-size: 2rem;
