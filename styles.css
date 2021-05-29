@@ -239,3 +239,16 @@ padding-top: 5%;}
     padding: 10% 0 10% 0; }
     .container-fluid .text-muted {
     margin: 20px 0; }
+.view-more {
+        margin: auto;
+        text-align: center;
+        margin-top: 4%;
+        font-family: 'Playfair Display', serif;
+        font-size: x-large;    
+}
+.view-more a{
+    color: #fddb3a;
+}
+.view-more a:hover{
+    color: #f6f4e6;
+}
