@@ -136,7 +136,7 @@ body{
     padding: 5% 0;
 }
 /* Adjustment according to viewport */
-@media (max-width:1100px){
+@media (max-width:990px){
     .top-heading::before, .top-heading::after{
         height: 0;
         width: 0;
@@ -150,6 +150,9 @@ body{
     }
     .bottom-heading, .resume-heading{
         font-size: 2rem;
+    }
+    .temp-holder{
+        display: none;
     }
     
 }
@@ -250,5 +253,13 @@ padding-top: 5%;}
     color: #fddb3a;
 }
 .view-more a:hover{
+    color: #f6f4e6;
+}
+
+.chess{
+    color: #0b0b0d;
+    font-weight: bold;
+}
+.chess a:hover{
     color: #f6f4e6;
 }
