@@ -96,7 +96,7 @@ body{
 }
 /* Description */
 .description{
-    width: 50%;
+    /* width: 50%; */
     color: #0b0b0d;
     text-align: center;
     font-family: 'Raleway';
